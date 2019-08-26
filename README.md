@@ -3,8 +3,7 @@ Adding Open Layers to QGIS3
 
 
 
-#### This script should be run from the Python console inside QGIS. To access this use CTRL+ALT+P, and just copy and paste the content located in the following 
-code block. It will add online sources to the QGIS Browser.
+#### This script should be run from the Python console inside QGIS. To access this use CTRL+ALT+P, and just copy and paste the content located in the following code block. It will add online sources to the QGIS Browser.
 
 PD: Each source contains a list with the folowing items (string type):
 [sourcetype, title, authconfig, password, referer, url, username, zmax, zmin]
@@ -73,6 +72,15 @@ for source in sources:
 # Update GUI
 iface.reloadConnections()
 ```
-And some screenshots
+
+
+
+
+
+#### And some screenshots
+
+
 ![step 1 and 2](image1.png "image1")
+
+
 ![step 3](image2.png "image2")
