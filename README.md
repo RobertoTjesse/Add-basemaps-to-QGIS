@@ -3,8 +3,7 @@ Adding Open Layers to QGIS3
 
 
 
-"""
-This script should be run from the Python console inside QGIS. To access this use CTRL+ALT+P, and just copy and paste the content located in the following 
+####This script should be run from the Python console inside QGIS. To access this use CTRL+ALT+P, and just copy and paste the content located in the following 
 code block. It will add online sources to the QGIS Browser.
 
 PD: Each source contains a list with the folowing items (string type):
@@ -18,7 +17,7 @@ Licence GPL-3
 PDD: Regarding the terms of use for these background maps YOU will need to verify that you
 follow the individual EULA that comes with the different services,
 
-"""
+
 
 ```python
 
