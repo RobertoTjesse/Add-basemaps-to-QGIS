@@ -22,7 +22,7 @@ follow the individual EULA that comes with the different services,
 Most likely they will restrict how you can use the data.
 
 """
-
+```python
 
 # Sources
 sources = []
@@ -75,3 +75,8 @@ for source in sources:
 
 # Update GUI
 iface.reloadConnections()
+
+
+
+```
+
