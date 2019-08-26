@@ -1,27 +1,25 @@
 # OpenLayersQGIS
-Add Open Layers to QGIS3
+Adding Open Layers to QGIS3
 
 
 
 """
-This script should be run from the Python consol inside QGIS.
+This script should be run from the Python console inside QGIS. To access this use CTRL+ALT+P, and just copy and paste the content located in the following 
+code block. It will add online sources to the QGIS Browser.
 
-It adds online sources to the QGIS Browser.
-Each source should contain a list with the folowing items (string type):
+PD: Each source contains a list with the folowing items (string type):
 [sourcetype, title, authconfig, password, referer, url, username, zmax, zmin]
-
 You can add or remove sources from the sources section of the code.
-
-Script by Klas Karlsson
+Many thanks to Klas Karlsson
 Sources from https://qms.nextgis.com/
 
 Licence GPL-3
 
-Regarding the terms of use for these background maps YOU will need to verify that you
+PDD: Regarding the terms of use for these background maps YOU will need to verify that you
 follow the individual EULA that comes with the different services,
-Most likely they will restrict how you can use the data.
 
 """
+
 ```python
 
 # Sources
@@ -75,8 +73,7 @@ for source in sources:
 
 # Update GUI
 iface.reloadConnections()
-
-
-
 ```
-
+And some screenshots
+![step 1 and 2](image1.png "image1")
+![step 3](image2.png "image2")
